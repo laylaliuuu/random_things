@@ -1,0 +1,133 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #F9F5EB;
+}
+
+/* STYLE TEXT */
+
+h1 {
+  color: navy;
+}
+
+/* STYLE IMAGES */
+img{
+  width:20em;
+}
+
+/* STYLE NAV BAR */
+nav{
+  text-align:center;
+}
+
+li {
+  display: inline;
+}
+
+a{
+  font-size:20px;
+}
+
+li a {
+  color: #1C3879;
+  text-align: center;
+  padding: 10px 60px;
+  text-decoration: none;
+}
+
+ul{
+  list-style-type:none;
+  overflow hidden;
+  padding: 1.5em;
+  margin:0;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
+}
+
+li a:hover {
+  background-color: #CBA688;
+}
+
+
+/* STYLE BUTTONS */
+
+/* ADD MORE! */
+
+/*style header */
+
+#header-image img{
+    width: 100%;
+    margin: none;
+    padding: none;
+}
+
+#header{
+    position: absolute;
+    top: 60%;
+    left: 15%;
+    color: #23303D;
+    font-size: 475%;
+    transform: translate(-30%, -30%);
+    flex-wrap: wrap;
+}
+
+.FACTS{
+  display:flex;
+  justify-conent:space-between;
+  padding:5%;
+  text-align:center;
+}
+
+.FACTS img{
+  width: 50%;
+  border-radius: 10%;
+}
+
+.FACTS h2{
+  font-size:50px;
+  color:black;
+}
+
+.FACTS p{
+  color:black;
+  font-size:30px;
+  margin-left:50px;
+  margin-right:70px;
+
+}
+
+.FACTS button{
+  background: #CBA688;
+  padding: 20px;
+  font-size:25px;
+  border-radius: 10%;
+  border: 5px solid #935430;
+}
+
+.about h1{
+  padding-top:20px;
+  text-align:center;
+  font-size:50px;
+}
+
+.about p{
+  margin:10px;
+  padding-left:150px;
+  padding-right:150px;
+  padding-top: 20px;
+  padding-bottom:20px;
+  font-size:40px;
+}
+
+.about img{
+  width: 70%;
+  border-radius: 10%;
+  margin-left:15%;
+  margin-right: 20%;
+}
+
